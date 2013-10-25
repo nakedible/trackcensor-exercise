@@ -1,6 +1,7 @@
 #include <openssl/rsa.h>
 
 /* typedef struct rsa_st RSA; */
+/* int RSA_public_encrypt(int flen, unsigned char *from, unsigned char *to, RSA *rsa, int padding); */
 
 /** Process a magnetic track, producing both censored and encrypted
  *  versions of full track data and PAN separately.
