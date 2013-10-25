@@ -38,6 +38,6 @@ int process_track(const unsigned char *buffer,
                   size_t encrypted_track_size,
                   unsigned char *out_encrypted_pan,
                   size_t *out_encrypted_pan_length,
-                  size_t encrypted_track_size)
+                  size_t encrypted_pan_size)
 {
 }
