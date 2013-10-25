@@ -8,6 +8,7 @@
  *
  *  \param buffer binary track data to process
  *  \param length length of the binary track data in bytes
+ *  \param track_number an integer telling which magnetic track is given (1, 2, or 3)
  *  \param censored_track censored track data output buffer
  *  \param censored_track_length length of the censored track data written
  *  \param censored_track_size size of the censored track data output buffer in bytes
